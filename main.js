@@ -1,0 +1,1 @@
+// alert ('Welcom to VAPE HD')/*taọ một bảng ở đầu đè ở trong trang*/

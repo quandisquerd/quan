@@ -1,0 +1,434 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-image: url(nen.jpg);
+    text-align: center;
+    font-family: tahoma;
+}
+
+/* html{
+    background-image:  url(950k.png);
+    background-image: cover;
+} */
+ul.logo{
+    background-color: rgb(70, 53, 53);
+}
+ul img{
+    margin-top: 3px;
+    margin-left: 20px;
+    width: 400px;
+}
+@keyframes example {
+    from {background-color: rgb(253, 0, 0);}
+    to {background-color: rgb(208, 255, 0);}
+  }
+ul input.tim{
+    /* float: right;
+    margin-top: 10px; */
+    margin-right: 30px;
+    position: absolute;
+    display: flex;
+    right: 30px;
+    top: 25px;
+    padding-left: 30px;
+    padding-top:5px;
+    padding-bottom: 5px;
+    border-radius:5px;
+    background-color: rgb(10, 14, 252);
+    animation-name: example;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+input.tim[type="text"]:focus{
+    width:300px; 
+    background-color:rgb(212, 188, 208);
+    
+}
+.fa-search{
+    float: right;
+    margin-top: 30px;
+    margin-right:40px;
+    color: rgb(13, 14, 14);
+    /* background-color: purple; */
+  
+}
+.fa-search:hover{
+    color:aqua;
+}
+ul.menu{
+    width: 80%;
+    height: 60px;
+    
+    background-color: rgb(51, 51, 47);
+}
+ul.menu >li{
+    
+    list-style: none;
+    /* display: flex; */
+    float: left;
+    /* padding-top: 15px;
+    padding-bottom: 15px; */
+    position: relative;
+}
+ul.menu >li >a{
+    line-height: 60px;
+    padding: 0 10px 0px 10px;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    /* padding-top: 25px;
+    padding-bottom: 23px; */
+    font-size: 12px;
+    display: block;
+    color: rgb(214, 241, 198);
+}
+ul.menu >li >a:hover{
+    background-color:  rgb(255, 255, 255);
+    transition: ease-in 0.4s;
+    -moz-transition: ease-in 0.4s;
+    -webkit-transition: ease-in 0.4s;
+    color: rgb(66, 60, 60);
+}
+
+ul.login{
+    position: absolute;
+    width:20%;
+    height: 30px;
+    right:0px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    top: 87px;
+    display: flex;
+    background-color: rgb(51, 51, 47);
+}
+ul.login >li{
+    list-style: none;
+    padding: 0 10px;
+}
+ul.login >li >a{
+    text-decoration: none;
+    text-transform: lowercase;
+    padding-left: 5px;
+    margin-left: 10px;
+    padding: 3px;
+    color: rgb(182, 176, 176);
+}
+ul.submenu{
+    width: 300px;
+    min-height: 150px;
+    background-color: #3b3a3a;
+    display: none;
+    position: absolute;
+    
+}
+ul.submenu li{
+    list-style: none;
+}
+
+ul.submenu li a{
+    border-top: 2px solid rgb(71, 73, 55);
+    text-decoration: none;
+    line-height: 60px;
+    font-weight: bold;
+    display: block;
+    text-indent: 10px;
+    color: rgb(255, 255, 255);
+}
+ul.submenu li:hover{
+    background-color: rgb(223, 208, 208);
+    border: 1px solid;
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .2);
+    outline-color: rgba(255, 255, 255, 0);
+    outline-offset: 15px;
+    text-shadow: 1px 1px 2px #427388;
+    transition: ease-in 0.4s;
+    -moz-transition: ease-in 0.4s;
+    -webkit-transition: ease-in 0.4s;
+}
+ul.submenu li a:hover{
+    color: rgb(37, 35, 35);
+}
+.menu >li:hover ul.submenu{
+    display: block;
+}
+#than{
+    width: 1200px;
+    /* max-width:1200px; */
+    min-height: 200px;
+    background-color: #aae9aa;
+    margin: 20px auto;
+    padding: 15px 0px 0px 0px;
+    border-radius: 5px;
+    
+}
+h2{
+    text-align: center;
+    color: red;
+    font-weight: bold;
+    font-variant: small-caps;
+    padding-bottom: 10px;
+}
+h3{
+    /* width:30%; */
+    width: 370px;
+    text-align: center;
+    text-indent: 10px;
+    padding: 0px 10px 0px 10px;
+    background-color: rgb(255, 255, 255);
+    line-height: 60px;
+}
+.noibat{
+    
+    background-color: #fff;
+    min-height: 200px;
+}
+.noibat nav{
+    float: left;
+    
+}
+nav.doi{
+    background-color: rgb(216, 213, 213);
+    padding: 5px 5px 5px 5px;
+}
+nav.doi img{
+    padding-top: 4px;
+    padding-bottom: 5px;
+    width: 100px;
+    float: left;
+    padding-left: 5px;
+}
+/* nav.doi a{
+    margin-top: 5px;
+} */
+nav.tra{
+    background-color: rgb(216, 213, 213);
+    padding: 5px 5px 5px 5px;
+}
+nav.moi{
+    background-color: rgb(216, 213, 213);
+    padding: 5px 5px 5px 5px;
+    /* position: relative; */
+}
+h3.mau{
+    background-color: rgb(107, 101, 116);
+    border-radius: 5px;
+}
+h3.loi{
+    background-color: rgb(107, 101, 116);
+    border-radius: 5px;
+}
+h3.new{
+    background-color: rgb(107, 101, 116);
+    border-radius: 5px;
+}
+nav.tra img{
+    padding-top: 4px;
+    padding-bottom: 5px;
+    width: 100px;
+    float: left;
+    padding-left: 5px;
+}
+footer{
+    /* width: 98%; */
+    border-top: 5px double orange;
+    line-height: 20px;
+    background-color:rgb(36, 59, 65);
+    text-align: center;
+    font-variant: small-caps;
+    clear: both;
+    color: rgb(255, 255, 255);
+}
+h5{
+    padding-top: 25px;
+}
+nav.moi img{
+    padding-left: 5px;
+    padding-top: 4px;
+    width: 100px;
+    float: left;
+    padding-bottom: 5px;
+}
+nav.moi .con{
+    width:390px;
+    height: 107px;
+    border-bottom: 2px solid rgb(204, 183, 183);
+    /* position : absolute; */
+}
+nav.tra .con{
+    width:390px;
+    height: 107px;
+    border-bottom: 2px solid rgb(204, 183, 183);
+    /* position : absolute; */
+}
+nav.doi .con{
+    width:390px;
+    height: 107px;
+    border-bottom: 2px solid rgb(204, 183, 183);
+    /* position : absolute; */
+}
+nav.me{
+    width: 390px;
+    min-height: 400px;
+    border-radius: 5px;
+}
+h5 a{
+    text-decoration: none;
+    padding-left: 10px;
+}
+nav.con:hover{
+    background-color:black;
+    transition: ease-in 0.4s;
+    -moz-transition: ease-in 0.4s;
+    -webkit-transition: ease-in 0.4s;
+    border-radius: 5px;
+}
+nav.con:hover a{
+    color: white;
+}
+.thongtin{
+    display: inline-block;
+    margin-top: 30px;
+    line-height: 40px;
+    margin-bottom: 30px;
+    width: 80%;
+}
+h4{
+    
+    text-align: center;
+    color: rgb(248, 234, 37);
+    /* background-color: rgb(235, 159, 159); */
+}
+.thongtin1{
+    width:80%;
+    margin: 50px auto;
+    /* height: 300px; */
+    margin-bottom: 15px;
+    display: flex;
+    /* position: relative; */
+   
+}
+div.aa{
+    width: 16%;
+    height: 300px;
+    margin: 0px 15px;
+    padding: 0px 10px;
+    transition: 0.5s;
+    background-color: #fff;
+}
+div h{
+    display: inline-block;
+    border-bottom: 20px;
+}
+img{
+    width: 80%;
+    
+}
+.mn{
+    
+    list-style: none;
+}
+.mn a{
+    text-decoration: none;
+    color: white;
+}
+.mn a:hover{
+    color: rgb(94, 255, 0);
+}
+.d1{
+    width: 80%;
+    margin: 50px auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+button{
+    padding: 10px 30px ;
+    border-radius: 5px;
+    box-shadow: inset 0 0px 20px red;
+}
+button a{
+    text-decoration: none;
+    color:rgb(10, 14, 252);
+}
+button:hover {
+    
+    box-shadow: inset 0 0px 20px rgb(75, 201, 194);
+}
+button:hover a{
+    color: rgb(102, 15, 15);
+    font-weight: bold;
+}
+h5{
+    bottom: 10px;
+}
+button.d2{
+    position: relative;
+    box-shadow: inset 0 0 20px red;
+    border: none;
+    margin : 5px auto;
+    transition:0.5s;
+    display:none;
+}
+button.d2:hover{
+    box-shadow: inset 0px 0px 20px rgb(245, 62, 236);
+    font-weight: bold;
+    border: none;
+    transition:0.5s;
+    color: rgb(92, 78, 78);
+}
+div.aa:hover>button.d2{
+    /* width: */
+    display:block;
+    transition:0.5s;
+    text-align: center;
+    
+}
+#tin{
+    background-color: white;
+    width: 80%;
+    margin: 50px auto;
+    display: inline-block;
+    height: 400px;
+}
+h3{
+    margin: 0 auto;
+    text-align: center;
+    color: rgb(46, 46, 41);
+}
+div.tintuc1{
+    display: flex;
+}
+div.tin1{
+    width: 20%;
+    height: 300px;
+    margin: 0px 15px;
+    padding: 0px 10px;
+    transition: 0.5s;
+    /* background-color: rgb(85, 60, 60); */
+    /* height: 200px; */
+}
+div.tin1>img{
+    width: 90%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+button.mo{
+    padding-top: 50px;
+}
+button.mo:disabled{/*định dạng nút xóa*/
+    color:darkgray;
+    border:none;
+    box-shadow: none;
+    background-color: white;
+}
+.cham{
+    border-top:2px dotted rgb(182, 173, 173); /*làm thẻ hr thành đứt đoạn*/
+
+}
+.fa-arrow-right-long{
+    width: 100%;
+}

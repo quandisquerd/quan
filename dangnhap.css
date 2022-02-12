@@ -1,0 +1,74 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+#dangnhap{
+	text-align: center;
+	padding-top: 100px ;
+	/*display: inline-block;*/
+}
+body{
+	font-family: tahoma;
+	/*display: flex;*/
+	width: 100vw;
+	height: 100vh;
+	background: url(anh.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+h2{
+	color: #fefefe;
+	line-height: 140px;
+	font-weight: bold;
+	font-size: 100px;
+	text-shadow: 5px 5px black;
+}
+input[type="text"]{
+	font-size: 30px;
+	width: 300px;
+	/*line-height: 50px;*/
+	border-radius: 5px;
+
+}
+input[type="text"]:hover{
+	background-color: black;
+	color: white;
+	transition: ease-in 0.4s;
+	-moz-transition: ease-in 0.4s;
+	-webkit-transition: ease-in 0.4s;
+}
+div.tk{
+	height: 50px;
+	/*line-height: 0px;*/
+	align-items: center;
+}
+i.fa-user{
+	font-size: 30px;
+	/*line-height: 80px;*/
+	text-shadow: 0px 2px white;
+}
+input[type="password"]{
+	font-size: 30px;
+	width: 300px;
+	border-radius: 5px;
+}
+input[type="password"]:hover{
+	background-color: black;
+	color: white;
+	transition: ease-in 0.4s;
+	-moz-transition: ease-in 0.4s;
+	-webkit-transition: ease-in 0.4s;
+}
+i.fa-unlock-alt{
+	font-size: 30px;
+	text-shadow: 0px 2px white;
+}
+div.dieukhoan{
+	margin: 10px 0px 5px 0px;
+}
+button{
+	font-size: 15px;
+	width: 150px;
+	margin: 10px 0px;
+}

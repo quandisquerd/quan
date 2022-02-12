@@ -1,0 +1,275 @@
+#me{
+    width:250px;
+    height: 350px;
+    background: rgb(255, 255, 255);
+    margin: 50px auto; 
+    border-radius: 10px;
+    padding: 20px;
+    color: rgb(92, 79, 79);
+    border: 2px solid rgb(100, 90, 90);
+    /* position: relative; */
+}
+div.icontim{
+    font-size: 20px;
+    /* left: 20px;*/
+    margin-top: 25px;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+    
+    /* position: absolute; */
+}
+div.iconh{
+    font-size: 20px;
+    /* left: 20px;
+    top: 15px; */
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+    /* position: absolute; */
+}
+div.iconh{
+    left: unset;
+    right: 20px;
+}
+
+#me:hover div.icontim{
+    visibility: visible;
+    opacity:100;
+    transition: 0.5s;
+}
+#me:hover div.iconh{
+    visibility: visible;
+    opacity:100;
+    transition: 0.5s;
+}
+div.iconimg{
+    width:80%;
+    margin: 0px auto;
+    transition: 0.5s;
+}
+div.iconimg img{
+    width:100%;
+    height: 100%;
+}
+.icontext,.icongia{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(173, 54, 54);
+    transition: 0.5s;
+}
+.iconsize{
+    display: flex;
+    align-items: center;
+    /* cho 2 dòng thẳng hàng */
+    margin-bottom: 15px;
+    transition: 0.5s;
+}
+.iconsize span{
+    padding: 1px 5px;
+    margin: 0px 5px;
+    background-color: rgb(8, 8, 8);
+    border-radius:5px;
+    color: #000;
+}
+.iconsize span a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.iconbut{
+    transition: 0.5s;
+}
+.iconbut button{
+    background-color: #000;
+    color: rgb(255, 255, 255);
+    border-radius:5px;
+    padding: 10px 20px;
+    font-weight: bold;
+    border:none;
+    outline: none;
+}
+#me:hover .iconimg{
+    transform: translateY(-90px) /*rotate(-20deg);/*để làm hiệu ứng di chuyển ảnh lên 90px và quay ảnh 20 độ*/
+}
+#me:hover .icontext{
+    transform: translate(-40px ,-90px)/*để tạo hoạt ảnh đi sang tay phải 60px và đi lên 90px*/
+}
+#me:hover .icongia{
+    transform: translate(-60px ,-90px)
+}
+.iconsize{
+    margin-top: 110px;
+}
+.iconsize, .iconbut{
+    visibility: hidden;/*để ẩn cho hoạt ảnh mượt hơn */
+    opacity: 0;
+}
+#me:hover .iconsize,#me:hover .iconbut{
+    visibility: visible;
+    opacity:100;
+}
+#me:hover .iconsize{
+    margin-top: -50px;
+}
+#cha{
+    width:250px;
+    height: 350px;
+    background: rgb(255, 255, 255);
+    margin: 50px auto; 
+    border-radius: 10px;
+    padding: 20px;
+    color: rgb(92, 79, 79);
+    border: 2px solid rgb(100, 90, 90);
+}
+div.itim{
+    font-size: 20px;
+    /* left: 20px;*/
+    margin-top: 25px;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+}
+div.ihang{
+    font-size: 20px;
+    /* left: 20px;*/
+    /* margin-top: 25px; */
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+}
+div.iimg{
+    width:80%;
+    margin: 0px auto;
+    transition: 0.5s;
+}
+div.iimg img{
+    width:100%;
+    height: 100%;
+}
+.isize span{
+    padding: 1px 5px;
+    margin: 0px 5px;
+    background-color: rgb(8, 8, 8);
+    border-radius:5px;
+    color: #000;
+}
+.isize span a{
+    text-decoration: none;
+    
+    color: rgb(255, 255, 255);
+}
+.isize{
+    display: flex;
+    align-items: center;
+    /* cho 2 dòng thẳng hàng */
+    margin-bottom: 15px;
+    transition: 0.5s;
+}
+.itext,.igia{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(173, 54, 54);
+    transition: 0.5s;
+}
+.ibut button{
+    background-color: #000;
+    color: rgb(255, 255, 255);
+    border-radius:5px;
+    padding: 10px 20px;
+    font-weight: bold;
+    border:none;
+    outline: none;
+}
+#cha:hover .iimg{
+    transform: translateY(-90px) /*rotate(-20deg);/*để làm hiệu ứng di chuyển ảnh lên 90px và quay ảnh 20 độ*/
+}
+#cha:hover .itext{
+    transform: translate(-40px ,-90px)/*để tạo hoạt ảnh đi sang tay phải 60px và đi lên 90px*/
+}
+#cha:hover .igia{
+    transform: translate(-60px ,-90px)
+}
+.isize{
+    margin-top: 110px;
+}
+.isize, .ibut{
+    visibility: hidden;/*để ẩn cho hoạt ảnh mượt hơn */
+    opacity: 0;
+    transition: 0.5s;
+}
+#cha:hover .isize,#cha:hover .ibut{
+    visibility: visible;
+    opacity:100;
+}
+#cha:hover .isize{
+    margin-top: -50px;
+}
+#cha:hover div.itim{
+    visibility: visible;
+    opacity:100;
+    transition: 0.5s;
+}
+#cha:hover div.ihang{
+    visibility: visible;
+    opacity:100;
+    transition: 0.5s;
+}
+div.ihang.fa-shopping-cart:focus{
+    color: aliceblue;
+}
+.ibut button{
+    transition: 0.25s;
+}
+.iconbut button{
+    transition: 0.25s;
+}
+div.iconbut button:hover{
+    transform: scale(0.9);
+}
+div.ibut button:hover{
+    transform: scale(0.9);
+}
+.iimg img{
+    transition: 0.25s;
+}
+div.iimg img:hover{
+    transform: scale(0.9);
+}
+div.isize span{
+    transition: 0.25s;
+}
+.iconsize span{
+    transition: 0.25s;
+}
+.iconsize span:active {
+    transition: -0.5s;
+    background-color: rgb(139, 96, 96);
+}
+.iconsize span:hover{
+    transform: scale(0.9);
+}
+div.isize span:hover {
+    transform: scale(0.9);
+}
+.fa-heart{
+    transition: 0.25s;
+}
+.fa-heart:hover{
+    transform: scale(0.9);
+    color:rgb(207, 54, 54)
+}
+.fa-shopping-cart{
+    transition: 0.25s;
+}
+.fa-shopping-cart:hover{
+    transform: scale(0.9);
+    color: rgb(219, 75, 75);
+}
+.iconimg img{
+    transition: 0.25s;
+}
+.iconimg img:hover{
+    transform: scale(0.9);
+}

@@ -1,0 +1,95 @@
+*{
+    padding: 0px;
+    margin: 0px; 
+}
+body{
+    font-family: tahoma;
+    background-image: url(anh3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#taott{
+    text-align: center;
+    margin: 100px auto;
+}
+h2{
+    color: #fefefe;
+	line-height: 140px;
+	font-weight: bold;
+	font-size: 90px;
+	text-shadow: 5px 5px rgb(100, 91, 91);
+    
+}
+div.email{
+    line-height: 50px;
+}
+input.o1{
+    width:300px;
+    font-size: 30px;
+    border-radius: 5px;
+}
+input.o1:hover{
+    background-color: black;
+    color: white;
+}
+input.o2:hover{
+    background-color: black;
+    color: white;
+}
+input.o3:hover{
+    background-color: black;
+    color: white;
+}
+input.o4:hover{
+    background-color: black;
+    color: white;
+}
+div.ten{
+    line-height: 50px;
+}
+div.mk{
+    line-height: 50px;
+}
+div.mk1{
+    line-height: 50px;
+}
+input.o2{
+    width:300px;
+    font-size: 30px;
+    border-radius: 5px;
+}
+i.fa-user{
+    color: white;
+    font-size: 30px;
+}
+i.fa-envelope-o{
+    color: white;
+    font-size: 30px;
+}
+input.o3{
+    width:300px;
+    font-size: 30px;
+    border-radius: 5px;
+}
+input.o4{
+    width:300px;
+    font-size: 30px;
+    border-radius: 5px;
+}
+i.fa-unlock-alt{
+    color: white;
+    font-size: 30px;
+}
+div.a2 p{
+    color: rgb(255, 255, 255);
+}
+button{
+    width:150px;
+    font-size:15px ;
+    margin: 10px 0px;
+    border-radius: 5px;
+}
+button:active{
+    background-color: aqua;
+}
